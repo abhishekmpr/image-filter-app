@@ -1,0 +1,6 @@
+{
+  "name": "image-filter-app",
+  "title": "Image Filter App",
+  "description": "A simple image filtering app using React, HTML, and CSS",
+  "technology": "React, HTML, CSS"
+}

@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.header h1 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: 200px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.filter-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.filter-btn:hover {
+  background-color: #555;
+}
+
+.filter-container {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.filter-container.show {
+  display: block;
+}
+
+.filter-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.filter-container button:hover {
+  background-color: #555;
+}
+
+.filter-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.filter-container input[type="checkbox"] {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.filter-container input[type="checkbox"]:checked {
+  color: #666;
+}
+
+.filter-container img {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.filter-container img:hover {
+  transform: scale(1.2);
+}
+
+.filter-container .reset-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.filter-container .reset-btn:hover {
+  background-color: #555;
+}
+
+.filter-container .cancel-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.filter-container .cancel-btn:hover {
+  background-color: #555;
+}
+
+.filter-container .save-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.filter-container .save-btn:hover {
+  background-color: #555;
+}
